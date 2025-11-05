@@ -8,6 +8,12 @@ No installation is required to view the website. To run it locally:
 2. Open `index.html` in any modern web browser.
 3. Ensure all linked CSS and image files are in the same directory structure.
 
+Usage Instructions
+- Navigate through the site using the top menu to explore:
+  - Current Book: Learn about the book being read this month.
+  - Past Picks: Archive of previous books
+  - Join Us: Contact info
+
 
 All pages are designed to be mobile-friendly and meet basic accessibility standards (WCAG 2.1).
 
