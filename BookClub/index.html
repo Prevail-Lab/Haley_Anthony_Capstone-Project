@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Book Club</title>
-<meta charset="utf-8">
-<link href="bookclub.css" rel="stylesheet">
+  <title>Book Club</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Join our welcoming book club community! We explore diverse genres from historical to fantasy, meet monthly, and encourage thoughtful discussions. All readers welcome.">
+  <link href="bookclub.css" rel="stylesheet">
+  <script src="bookclub.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -23,6 +25,19 @@
 <main>
  <h2>Book of the Month</h2>
  <h3>Sample Book Name</h3>
+ <div class="slideshow">
+  <a href="currentbook.html">
+    <img id="cycling-image" src="photo-1662101458732-e1024a703261.avif" width="435" height="290" alt="Book covers">
+  </a>
+
+  <div class="dots-container">
+    <span class="dot active" onclick="currentSlide(0)"></span>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+</div>
  <div class="book-of-the-month">
   <a href="currentbook.html"><img src="bookImage.jpg" width="435" height="290" alt="Book flipping page"></a>
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
@@ -60,7 +75,7 @@
   </ul>
 </nav>
   Copyright &copy; 2025 Book Club<br>
-  Last updated: November 18, 2025<br>
+  Last updated: November 28, 2025<br>
   <a href="mailto:ahaley1@my.westga.edu">anthony@haley.com</a>
 </footer>
 </div>

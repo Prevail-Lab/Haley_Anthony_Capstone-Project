@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Book Club</title>
-<meta charset="utf-8">
-<link href="bookclub.css" rel="stylesheet">
+  <title>Book Club</title>
+  <meta charset="utf-8">
+  <link href="bookclub.css" rel="stylesheet">
+  <script src="bookclub.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -21,24 +22,27 @@
   </ul>
 </nav>
 <main>
- <h2>Book of the Month</h2>
- <h3>Sample Book Name</h3>
- <div class="book-of-the-month">
-  <a href="currentbook.html"><img src="bookImage.jpg" width="435" height="290" alt="Book flipping page"></a>
-  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
- </div>
- <dl>
-  <dt>Established Community</dt>
-  <dd>Our book club has brung hundreds of readers to share stories and ideas.</dd>
-  <dt>Diverse Reading List</dt>
-  <dd>We explore a wide range of genres from historical to fantasy.</dd>
-  <dt>Monthly Meetings</dt>
-  <dd>We meet on the first Thursday of each month to discuss the current pick.</dd>
-  <dt>Open Membership</dt>
-  <dd>Whether you're an experienced reader or just getting started, everyone is welcome.</dd>
-  <dt>Interactive Discussions</dt>
-  <dd>Our meetings encourage thoughtful and respectful debate.</dd>
-</dl>
+  <h2>Member Reviews</h2>
+
+  <article class="review">
+    <h3>Review by Sarah - 5 Stars</h3>
+    <p>This book was amazing! The character development was incredible...</p>
+
+    <button onclick="toggleSpoiler('spoiler1')">Show Spoiler</button>
+    <div id="spoiler1" class="spoiler">
+      <p><strong>SPOILER:</strong> The plot twist was unexpected!</p>
+    </div>
+  </article>
+
+  <article class="review">
+    <h3>Review by John - 4 Stars</h3>
+    <p>Great read, though the ending felt rushed...</p>
+
+    <button onclick="toggleSpoiler('spoiler2')">Show Spoiler</button>
+    <div id="spoiler2" class="spoiler">
+      <p><strong>SPOILER:</strong> The final confrontation happened too quickly.</p>
+    </div>
+  </article>
 
   <div id="info">
    Book Club<br>
