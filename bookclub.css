@@ -7,10 +7,33 @@ header {
 header a {
     color: #3E2723
 }
-a {
+
+nav a {
     text-decoration: none;
     color: #F5F5DC
 }
+
+/* Links in main content area */
+main a {
+    color: #8B4513;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #5D4037;
+    text-decoration: none;
+}
+
+/* Links in info boxes */
+#info a {
+color: #8B4513;
+font-weight: bold;
+}
+
+#info a:hover {
+color: #5D4037;
+}
+
 /*Nav Stylings*/
 #top-nav {
     display: flex;
@@ -121,6 +144,16 @@ dd {
     margin-left: 1em;
     margin-bottom: .8em;
     color: #555555;
+}
+
+/* Links inside description lists */
+dl a {
+    color: #8B4513;
+    font-weight: bold;
+}
+
+dl a:hover {
+    color: #5D4037;
 }
 
 table {
